@@ -16,4 +16,4 @@ p5.prototype.renderAxes = function () {
   pop();
 };
 
-p5.prototype.registerMethod("pre", p5.prototype.renderAxes);
+p5.prototype.registerMethod("post", p5.prototype.renderAxes);

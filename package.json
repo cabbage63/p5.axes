@@ -2,7 +2,8 @@
   "name": "p5.axes",
   "description": "Simple utility library to render x, y, z axes for p5.js",
   "scripts": {
-    "minify": "terser ./src/p5.axes.js --compress --output ./dist/p5.axes.min.js"
+    "minify": "terser ./src/p5.axes.js --compress --output ./docs/lib/p5.axes.min.js",
+    "release": "npm run minify && cp src/p5.axes.js ./docs/lib/p5.axes.js && cp src/p5.axes.min.js ./docs/lib/p5.axes.min.js"
   },
   "author": "cabbage63",
   "license": "MIT",
