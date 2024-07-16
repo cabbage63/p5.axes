@@ -14,8 +14,13 @@ Import the library after p5.js.
 <script src="https://cabbage63.github.io/p5.axes/lib/p5.axes.min.js"></script>
 ```
 
+Example in OpenProcessing: https://openprocessing.org/sketch/2315746
+
 ### How to Import (OpenProcessing)
 Please paste the URL of this library `https://cabbage63.github.io/p5.axes/lib/p5.axes.min.js` into the input field under [SKETCH] > [LIBRARIES] to add the library.
+
+Example in OpenProcessing: https://openprocessing.org/sketch/2315735
+
 ![import_op](https://github.com/user-attachments/assets/5527ce83-cd2d-43db-8911-a0a6fb40020b)
 
 ### Requirement
