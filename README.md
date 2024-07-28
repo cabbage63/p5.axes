@@ -38,6 +38,17 @@ Example:
 createCanvas(windowWidth, windowHeight, WEBGL);
 ```
 
-## Disabling the Library
+## Disabling rendering axes 
+### Option1: Disabling programatically
+You can enable/disable rendering axes by calling the following methods.
 
-If you no longer need this feature, simply remove or comment out the import code for the library.
+``` js
+// Enable
+p5Axes.enable()
+
+// Disable rendering
+p5Axes.disable()
+```
+
+### Option2: Remove library
+If you no longer need this feature, you can simply remove or comment out the import code for the library.
