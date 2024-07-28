@@ -2,12 +2,15 @@
   "name": "p5.axes",
   "description": "Simple utility library to render x, y, z axes for p5.js",
   "scripts": {
+    "format:write": "prettier --write ./src",
+    "format:check": "prettier --check ./src",
     "minify": "terser ./src/p5.axes.js --compress --output ./docs/lib/p5.axes.min.js",
-    "release": "npm run minify && cp src/p5.axes.js ./docs/lib/p5.axes.js && cp src/p5.axes.min.js ./docs/lib/p5.axes.min.js"
+    "release": "npm run format:write && npm run minify && cp src/p5.axes.js ./docs/lib/p5.axes.js"
   },
   "author": "cabbage63",
   "license": "MIT",
   "devDependencies": {
+    "prettier": "^3.3.3",
     "terser": "^5.31.2"
   }
 }
